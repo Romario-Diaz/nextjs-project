@@ -1,0 +1,63 @@
+
+@media (max-width: 380px) {
+    .main__container {
+        display: block;
+    }
+    .main {
+        padding: 0
+    }
+    .main__left {
+        width: 100%;
+    }
+    .filter__category {
+        padding: 15px 0px 0px 15px;
+    }
+
+    .filter__filters {
+        width: auto;
+        margin: 0px 20px;
+    }
+
+    .book__category {
+        padding: 15px 0px 0px 15px;
+    }
+
+    .book__list {
+        display: block;
+        margin: 0px 20px;
+    }
+
+    .book__item {
+        width: auto;
+    }
+
+    .book__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .header__menu {
+        height: auto;
+        padding: 0px;
+        display: block;
+    }
+
+    .header__menu > li {
+        width: 100%;
+    }
+
+    .header__menu > li>a {
+        width: 100%;
+    }
+
+    .header__menu > li:hover ul {
+        display: block;
+        width: 100%;
+        position: relative;
+        background-color: #313030;
+    }
+
+    .header__menu > li:hover ul li a {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,193 @@
+.header {
+    width: 100%;
+}
+
+.header__top {
+    height: 6rem;
+    align-items: center;
+    display: flex;
+    padding: 0 10rem;
+}
+
+.header__menu {
+    background-color: #000;
+    height: 5rem;
+    padding: 0 10rem;
+}
+
+.header__menu > li {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+}
+
+.header__menu li a {
+    display: flex;
+    height: 5rem;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.header__menu li > a:hover  {
+    background-color: #fff;
+    color: #000;
+}
+
+.header__menu li > ul {
+    display: none;
+}
+
+.header__menu > li:hover ul {
+    display: flex;
+    position: absolute;
+    background-color: #000;
+}
+
+.header__menu > li:hover ul li a {
+    width: 15rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main {
+    padding: 2rem 10rem 0;
+}
+
+.main__container {
+    display: flex;
+}
+
+.main__left {
+    width: 35rem;
+}
+
+.main__right {
+    flex: 1;
+}
+
+
+/* BOOKS DESIGN  */
+
+.book__container {
+    margin-bottom: 3rem;
+}
+
+.book__category {
+    font-size: 2rem;
+    text-decoration: uppercase;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.book__list {
+    background-color: #fff;
+    padding: 2rem 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book__item {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.book__item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book__img {
+    width: 14rem;
+    height: 16rem;
+}
+
+.book_texts {
+    margin-top: .5rem;
+}
+
+.book_texts span {
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+.book__icons {
+    color: yellow;
+    font-size: 1.3rem !important;
+}
+
+/* FILTERS */
+
+.filter__category {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.filter__container {
+    margin-bottom: 3rem;
+}
+
+.filter__filters {
+    background-color: #fff;
+    width: 28rem;
+    padding: 2rem 2rem 0;
+}
+
+.filter__item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.filter__item input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 1.7rem;
+    width: 1.7rem;
+    background-color: #fff;
+    margin-right: 2rem;
+    border: .3rem solid rgb(255, 94, 0);
+    border-radius: .2rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.filter__item label {
+    font-size: 1.5rem;
+}
+
+.filter__item input[type="checkbox"]:checked::after {
+    display: block;
+}
+
+.label__check {
+    font-size: 16px;
+}
+
+
+
+/* footer  */
+
+.footer {
+    background-color: #000;
+    padding: 2rem 2rem;
+    margin-top: 3rem;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer span {
+    color: #fff;
+    font-size: 1.4rem;
+}
